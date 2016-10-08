@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Use single quotes instead of double quotes to make it work with special-character passwords
-PASSWORD='pinupgirl16andbeyond'
-PROJECTFOLDER='ooolalababy'
+PASSWORD='123456'
+PROJECTFOLDER='mini'
 
 sudo apt-get update
 sudo apt-get -y upgrade
