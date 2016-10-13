@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Use single quotes instead of double quotes to make it work with special-character passwords
-PASSWORD='123456'
-PROJECTFOLDER='mini'
+PASSWORD='olb16andbeyonD'
+PROJECTFOLDER='olb'
 
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -39,7 +39,7 @@ sudo mkdir "/var/www/html/${PROJECTFOLDER}"
 #</VirtualHost>
 #EOF
 #)
-echo "${VHOST}" > /etc/apache2/sites-available/000-default.conf
+3echo "${VHOST}" > /etc/apache2/sites-available/000-default.conf
 
 # enable mod_rewrite
 #sudo a2enmod rewrite
@@ -57,8 +57,8 @@ sudo apt-get -y install git
 sudo git clone https://github.com/panique/mini "/var/www/html/${PROJECTFOLDER}"
 
 # install Composer (not necessary by default)
-curl -s https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
+#curl -s https://getcomposer.org/installer | php
+#mv composer.phar /usr/local/bin/composer
 
 # go to project folder, load Composer packages (not necessary by default)
 cd "/var/www/html/${PROJECTFOLDER}"
