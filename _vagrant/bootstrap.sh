@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Use single quotes instead of double quotes to make it work with special-character passwords
-PASSWORD='olb16andbeyonD'
-PROJECTFOLDER='olb'
+PASSWORD='123456'
+PROJECTFOLDER='project'
 
 sudo apt-get update
 sudo apt-get -y upgrade
